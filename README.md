@@ -21,8 +21,6 @@ Bursa Uludağ Üniversitesi Elektrik-Elektronik Mühendisliği 2. sınıf öğre
 
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square\&logo=c\&logoColor=white)
 ![STM32CubeIDE](https://img.shields.io/badge/STM32CubeIDE-03234B?style=flat-square\&logo=stmicroelectronics\&logoColor=white)
-![STM32CubeMX](https://img.shields.io/badge/STM32CubeMX-03234B?style=flat-square\&logo=stmicroelectronics\&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square\&logo=github\&logoColor=white)
 
 Gömülü C, pointer aritmetiği, bit düzeyinde işlemler ve bellek haritalama.
