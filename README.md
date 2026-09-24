@@ -2,7 +2,7 @@
 
 **Elektrik-Elektronik Mühendisliği Öğrencisi | Gömülü Sistemler**
 
-Bursa Uludağ Üniversitesi Elektrik-Elektronik Mühendisliği 2. sınıf öğrencisiyim. STM32 (ARM Cortex-M) ekosisteminde C diliyle, çevre birimlerinin çalışma prensiplerini yazmaç düzeyinde anlayarak gömülü yazılım geliştiriyorum. Savunma sanayii ve otomotiv sektörlerinde görev kritik gömülü sistemler üzerine çalışmayı hedefliyorum.
+Bursa Uludağ Üniversitesi Elektrik-Elektronik Mühendisliği 2. sınıf öğrencisiyim. STM32 (ARM Cortex-M) ekosisteminde C diliyle, çevre birimlerinin çalışma prensiplerini yazmaç düzeyinde anlayarak gömülü yazılım geliştiriyorum. Savunma sanayii ve otomotiv sektörlerinde gömülü sistemler üzerine çalışmayı hedefliyorum.
 
 ---
 
@@ -10,7 +10,6 @@ Bursa Uludağ Üniversitesi Elektrik-Elektronik Mühendisliği 2. sınıf öğre
 
 * **Donanıma yakın çalışırım.** HAL ile hızlı prototipleme yapabiliyor; ancak kullandığım çevre birimlerinin çalışma mantığını anlamak için LL ve doğrudan yazmaç erişimiyle de çalışıyorum.
 * **Kesme tabanlı ve bloklamayan tasarımları tercih ederim.** Veri akışını kesmeler ve hata callback'leri üzerinden yönetiyor; hat gürültüsü ve taşma gibi durumlarda sistemin kilitlenmesini önlemeye dikkat ediyorum.
-* **Fail-safe yaklaşımını benimserim.** Eksik veya hatalı veri geldiğinde sistemin güvenli bir duruma geçmesini tasarım aşamasında ele alıyorum.
 * **Donanım tarafını da dikkate alırım.** Yazdığım yazılımın üzerinde çalıştığı fiziksel katmana; sinyal seviyeleri, gürültü ve haberleşme hattı yapısı gibi unsurlara hâkim olmaya çalışıyorum. Bu sayede hata ayıklama sırasında yazılım ve donanım kaynaklı sorunları birbirinden ayırabiliyorum.
 
 ---
