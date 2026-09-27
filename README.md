@@ -6,14 +6,6 @@ Bursa Uludağ Üniversitesi Elektrik-Elektronik Mühendisliği 2. sınıf öğre
 
 ---
 
-## Nasıl Çalışırım
-
-* **Donanıma yakın çalışırım.** HAL ile hızlı prototipleme yapabiliyor; ancak kullandığım çevre birimlerinin çalışma mantığını anlamak için LL ve doğrudan yazmaç erişimiyle de çalışıyorum.
-* **Kesme tabanlı ve bloklamayan tasarımları tercih ederim.** Veri akışını kesmeler ve hata callback'leri üzerinden yönetiyor; hat gürültüsü ve taşma gibi durumlarda sistemin kilitlenmesini önlemeye dikkat ediyorum.
-* **Donanım tarafını da dikkate alırım.** Yazdığım yazılımın üzerinde çalıştığı fiziksel katmana; sinyal seviyeleri, gürültü ve haberleşme hattı yapısı gibi unsurlara hâkim olmaya çalışıyorum. Bu sayede hata ayıklama sırasında yazılım ve donanım kaynaklı sorunları birbirinden ayırabiliyorum.
-
----
-
 ## Teknik Yetkinlikler
 
 ### Diller ve Araçlar
@@ -45,17 +37,13 @@ Gömülü C, pointer aritmetiği, bit düzeyinde işlemler ve bellek haritalama.
 | **LL**       | Sistem saati yapılandırması (HSI48 ile 48 MHz), çevre birimi başlatma                         |
 | **Register** | Doğrudan yazmaç erişimi (ör. `GPIOA->BSRR`), bit operasyonlarıyla deterministik GPIO kontrolü |
 
-### Çevre Birimleri
-
-Timer/PWM, 12-bit ADC, harici kesmeler, kesme tabanlı RX, Sleep modu ve kesme ile uyandırma.
-
 ### Haberleşme Protokolleri
 
 | Protokol         | Kapsam                                                                     |
 | ---------------- | -------------------------------------------------------------------------- |
 | **UART / USART** | Master-Slave mimarisi, bloklamayan RX, hata bayrağı yönetimi (ORE, NE, FE) |
 | **CAN-BUS**      | 11-bit ID, donanımsal maske filtresi, TJA1051 fiziksel katmanı             |
-| **I2C / SPI**    | Teorik bilgi, devam eden uygulamalı çalışmalar                             |
+| **I2C / SPI**    | Teorik bilgi                                                               |
 
 ---
 
@@ -74,14 +62,6 @@ Analog veriyi 12-bit ADC ile okuyarak UART üzerinden ikinci mikrodenetleyiciye 
 HAL kullanmadan LL sürücüleri ve doğrudan yazmaç erişimiyle sistem saati ve GPIO yapılandırması gerçekleştirdim.
 
 Araç elektroniği tarafında OTAGG bünyesinde TEKNOFEST Robotaksi aracının kablaj ekibine liderlik ediyor ve araç içi CAN-BUS tesisatının entegrasyon çalışmalarında görev alıyorum. Ekibimiz, ülke genelindeki 650'nin üzerinde takım arasından finale kaldı.
-
----
-
-## Güncel Odak ve Hedefler
-
-* **Şu an:** STM32 üzerinde LL ve register düzeyinde programlama, kesme tabanlı haberleşme mimarileri, I2C ve SPI uygulamaları.
-* **Kısa vadeli hedef:** Savunma sanayii ve otomotiv sektörlerinde gömülü sistemler alanında 2. sınıf yaz stajı yapmak.
-* **Uzun vadeli hedef:** Gömülü yazılım alanında uzmanlaşmak.
 
 ---
 
